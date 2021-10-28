@@ -1,0 +1,48 @@
+* {
+  font-family: "inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f24141 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f24141 !important;
+  font-weight: 600;
+}
+.nav-link {
+  font-weight: 600;
+}
+.main-sidebar {
+  height: inherit !important;
+  min-height: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 14vw !important;
+  background-color: #f25a5b !important;
+}
+
+.largura-nav {
+  width: 14vw !important;
+  height: 100% !important;
+  background-color: #f25a5b !important;
+}
+
+.bg-dark {
+  background-color: #f25a5b !important;
+}
+
+@media screen and (max-width: 1441px) {
+  .main-sidebar {
+    height: inherit;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    width: 18.5vw !important;
+  }
+}
